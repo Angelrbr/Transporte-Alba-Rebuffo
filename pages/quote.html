@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotizar</title>
+    <link rel="shortcut icon" href="../assets/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <!--Header with NavBar-->
+        <div class="header__container container__locale">
+            <div class="header__content">
+                <img src="../assets/clipart2200488.png" alt="Logo Trebsa" width="60" height="60" class="content__logo">
+                <h1 class="content__title">
+                    <a href="../index.html">Transporte Rebuffo S.A.</a>
+                </h1>
+                <h1 class="content__title--mobileonly">
+                    <a href="../index.html">TREBSA</a>
+                </h1>
+            </div>
+            <div>
+                <ul class="content__navbar">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./about.html">Nosotros</a></li>
+                <li><a href="./contact.html">Contacto</a></li>
+                <li><a href="./quote.html">Cotizar</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- Page body, mainly focused on Quote form -->
+    <main class="main container__locale">
+        <h2 class="qmain__form--title">Cotizacion</h2>
+        <div class="content__form">
+            <form action="" class="form" id="content_quote">
+                <div class="content__form__body">
+                    <div>
+                        <label for="name">Nombre</label>
+                        <input type="text" name="nombre" placeholder="Nombre..." id="name">
+                        <label for="surname">Apellido</label>
+                        <input type="text" name="apellido" id="surname" placeholder="Apellido...">
+                        <label for="tel">Teléfono</label>
+                        <input type="text" name="telefono" id="tel" placeholder="Telefono...">
+                        <label for="email">Email</label>
+                        <input type="email" name="mail" id="email" placeholder="Email...">
+                        <label for="msg">Mensaje</label>
+                        <textarea name="mensaje" id="msg" cols="27" rows="6" placeholder="Deje su Mensaje..."></textarea>
+                    </div>
+                    <div>
+                        <label for="prod">Especifique Producto</label>
+                        <input type="text" name="producto" id="prod" placeholder="Producto...">
+                        <label for="value">Valor Declarado del Producto</label>
+                        <input type="text" name="valor_producto" id="value" placeholder="Valor Declarado...">
+                        <label for="weight">Ingrese el Peso</label>
+                        <input type="text" name="peso" id="weight" placeholder="Peso...">
+                        <label for="volume">Especifique el Volumen</label>
+                        <input type="text" name="volumen" id="volume" placeholder="Volumen...">
+                        <label for="oc">Ciudad de Origen</label>
+                        <input type="text" name="ciudadorigen" id="oc" placeholder="Ciudad Origen...">
+                        <label for="op">Provincia de Origen</label>
+                        <input type="text" name="provinciaorigen" id="op" placeholder="Provincia Origen...">
+                        <label for="ac">Ciudad Destino</label>
+                        <input type="text" name="ciudaddestino" id="ac" placeholder="Ciudad Destino...">
+                    </div>
+                </div>
+                <div class="content__form__footer">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpiar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <br>
+    <br>
+    <!--Footer with navbar, socials and copyright-->
+    <footer class="footer">
+        <div class="footer__container container__locale">
+            <div>
+                <div class="footer__content">
+                    <a href="../index.html">
+                    <img src="../assets/clipart2200488.png" alt="Logo Trebsa" width="60" height="60">
+                    </a>
+                <h3>Transporte Rebuffo S.A.<h3>
+                </div>
+                <div>
+                <a href="https://www.facebook.com/">
+                    <img src="../assets/pngegg.png" alt="Logo Facebook" width="30" height="30">
+                </a>
+                <a href="https://www.instagram.com/">
+                    <img src="../assets/logotipo-de-instagram.png" alt="Logo Instagram" width="30" height="30">
+                </a>
+                </div>
+            </div>
+            <div class="footer__navbar">
+                <h3>Mapa del Sitio</h3>
+                <ul>
+                    <li>
+                        <a href="../index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="./about.html">Nosotros</a>
+                    </li>
+                    <li>
+                        <a href="./contact.html">Contacto</a>
+                    </li>
+                    <li>
+                        <a href="./quote.html">Cotizar</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <p>All rights reserved to SCS Software and the Euro Truck Simulator 2 game. TREBSA is a fictitional cargo company founded within this game.</p>
+        </div>
+    </footer>
+</body>
+</html>

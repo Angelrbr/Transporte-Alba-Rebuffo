@@ -1,0 +1,377 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+body {
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    margin: 0;
+    background: linear-gradient(145deg, #d9d9d9, #ffffff);
+    display: grid;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.5;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container__locale {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+main.container__locale {
+    min-height: 100vh;
+}
+
+/* 1. Global header  */
+
+.header {
+    background-color: #131E29;
+    color: #7BA4DB;
+    padding: 30px 20px;
+}
+
+.header a {
+    color: #7BA4DB;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__content {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+
+.content__navbar {
+    display: none;
+    justify-content: end;
+    gap: 20px;
+    font-size: 1.2rem;
+}
+
+.content__navbar a {
+    color: #7BA4DB;
+}
+
+.content__title--mobileonly {
+    display: none;
+}
+
+.main {
+    padding: 2rem 1.5rem; /* 1rem = 16px */
+}
+
+/* 2. Index / Intro */
+
+.main .main__intro {
+    display: grid;
+    gap: 6rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.main__intro p {
+    font-style: italic;
+    display: inline-block;
+}
+
+.main__intro a {
+    color: #7BA4DB;
+    padding: 10px;
+    border: 3px solid #131E29;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 1.5rem;
+}
+
+/* 3. Index / Intro Content */
+
+.intro__content > * {
+    margin-top: 1rem;
+}
+
+.intro__content h2 {
+    margin: 0;
+}
+
+.intro__video {
+    text-align: right;
+}
+
+/* 4. Index / Cards */
+
+.main__cards {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.cards__title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.cards {
+    display: grid;
+    gap: 3rem;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+    box-shadow: 10px 10px 30px #d7d7d7,
+     -10px -10px 15px #fff;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    text-align: center;
+    background-color: #FFF;
+}
+
+.card p {
+    margin-top: 1rem;
+    text-align: left;
+    font-style: italic;
+}
+
+.main__clients {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+/* 5. Index / Clients */
+
+.clients__logos {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo {
+    box-shadow: 10px 10px 30px #d7d7d7,
+     -10px -10px 15px #fff;
+    border-radius: 1rem;
+    padding: .5rem;
+    text-align: center;
+    background-color: #FFF;
+}
+
+/* 6. Index / Vanguard */
+
+.main__vanguard {
+    display: inline-block;
+    text-align: center;
+}
+
+.vanguard__content p, .vanguard__content iframe {
+    margin-top: 1.2rem;
+}
+
+/* 7. Global Footer */
+
+.footer {
+    background-color: #7BA4DB;
+    color: #131E29;
+    padding: 30px 20px;
+}
+
+.footer__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+}
+
+.footer__navbar {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    font-size: 1.2rem;
+}
+
+.footer__navbar a {
+    color: #131E29;
+}
+
+.navbar__legals {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__copyright {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+/* 8. About Page */
+
+.main__content {
+    display: inline-block;
+    text-align: center;
+}
+
+.main__content h2 {
+    font-size: 3rem;
+}
+
+.main__content p {
+    margin-top: 1rem;
+    font-style: italic;
+    font-size: 1.3rem;
+}
+
+.main__content a {
+    display: inline-block;
+    justify-content: center;
+    margin-top: 1rem;
+    border: .5rem solid #131E29;
+    border-radius: 2rem;
+    padding: .8rem;
+    color: #7BA4DB;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* 9. Contact Page */
+
+.cmain__content h2, .cmain__content p {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.cmain__content h2 {
+    font-size: 2rem;
+}
+
+.cmain__content p {
+    font-size: 1.2rem;
+}
+
+.content__form {
+    margin-top: 1.2rem;
+    font-size: 1.3rem;
+}
+
+.content__form form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.content__form form .content__form__body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3rem;
+}
+
+.content__form form .content__form__body > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.content__form__footer {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.content__form__footer button {
+    font-size: 1.1rem;
+}
+
+.cmain__content h3 {
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: 2rem;
+}
+
+.qmain__form--title {
+    font-size: 2rem;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .header {
+        padding: 1rem 1.5rem;
+    }
+
+    .header .content__title {
+        display: none;
+    }
+
+    .content__title--mobileonly {
+        display: inline-block;
+        font-size: 20pt;
+    }
+
+    .main .main__intro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main .intro__video {
+        width: 100%;
+    }
+
+    .main .main__cards .cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .clients__logos {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    #content_quote .content__form__body {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer__container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2rem;
+    }
+
+    .footer__navbar {
+        flex-direction: column;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+    .content__navbar {
+        display: flex;
+        font-size: 15pt;
+        gap: 8px;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    .content__navbar {
+        display: flex;
+        font-size: 15pt;
+        gap: 20px;
+    }
+}
