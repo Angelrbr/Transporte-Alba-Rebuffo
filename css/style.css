@@ -97,6 +97,12 @@ main.container__locale {
     border-radius: 20px;
     display: inline-block;
     margin-top: 1.5rem;
+    transition: 0.3s;
+}
+
+.main__intro a:hover {
+    background: #000000;
+    transform: scale(1.1);
 }
 
 /* 3. Index / Intro Content */
@@ -139,6 +145,11 @@ main.container__locale {
     padding: 1.5rem;
     text-align: center;
     background-color: #FFF;
+    transition: 0.5s;
+}
+
+.card:hover {
+    transform: translateY(-20px);
 }
 
 .card p {
@@ -167,6 +178,11 @@ main.container__locale {
     padding: .5rem;
     text-align: center;
     background-color: #FFF;
+    transition: 0.3s;
+}
+
+.logo:hover {
+    transform: scale(1.2);
 }
 
 /* 6. Index / Vanguard */
@@ -248,6 +264,12 @@ main.container__locale {
     color: #7BA4DB;
     font-size: 1.2rem;
     font-weight: bold;
+    transition: 0.3s;
+}
+
+.main__content a:hover {
+    background-color: #000000;
+    transform: scale(1.15);
 }
 
 /* 9. Contact Page */
