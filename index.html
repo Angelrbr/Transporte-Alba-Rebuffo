@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Transporte Rebuffo SA</title>
     <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,26 +16,24 @@
 <body>
     <header class="header">
         <!--Header with NavBar-->
-        <div class="header__container container__locale">
-            <div class="header__content">
-                <a href="./index.html">
-                    <img src="./assets/clipart2200488.png" alt="Logo Trebsa" width="60" height="60" class="content__logo">
-                </a>
-                <h1 class="content__title">
-                    <a href="./index.html">Transporte Rebuffo S.A.</a>
-                </h1>
-                <h1 class="content__title--mobileonly">
-                    <a href="./index.html">TREBSA</a>
-                </h1>
-            </div>
-            <div>
-                <ul class="content__navbar">
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./pages/about.html">Nosotros</a></li>
-                <li><a href="./pages/contact.html">Contacto</a></li>
-                <li><a href="./pages/quote.html">Cotizar</a></li>
-                </ul>
-            </div>
+        <div>
+            <nav class="navbar navbar-expand-lg bg-dark">
+                <div class="container-fluid">
+                  <img src="./assets/clipart2200488.png" alt="" width="60" height="60" class="d-inline-block align-text-top">
+                  <a class="navbar-brand link-light fs-2" href="./index.html">TREBSA</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-link active link-light fs-5" aria-current="page" href="./index.html">Inicio</a>
+                      <a class="nav-link link-light fs-5" href="./pages/about.html">Nosotros</a>
+                      <a class="nav-link link-light fs-5" href="./pages/contact.html">Contacto</a>
+                      <a class="nav-link link-light fs-5" href="./pages/quote.html">Cotizar</a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
         </div>
     </header>
     <!--Page Body-->
@@ -53,26 +53,31 @@
         <section class="main__cards">
             <div>
                 <h2 class="cards__title">Con nuestra meta en claro</h2>
-                <div class="cards">
-                    <div>
-                        <article class="card">
-                            <img src="./assets/vision.png" alt="Vision" width="200" height="220">
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae qui ducimus ab eos voluptatem totam optio alias earum reprehenderit! Sunt, asperiores quisquam. Quam blanditiis libero culpa vero perferendis voluptatibus nisi?</p>
-                        </article>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="./assets/Mision.png" class="card-img-top" alt="mision">
+                        <div class="card-body">
+                          <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat cum qui fugiat sit! Numquam quod eaque reiciendis eligendi laudantium sit dignissimos consequuntur facere porro ut. Ea praesentium earum saepe corporis?</p>
+                        </div>
+                      </div>
                     </div>
-                    <div>
-                        <article class="card">
-                            <img src="./assets/Mision.png" alt="Mision" width="200" height="220">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed incidunt natus exercitationem, omnis in sapiente blanditiis assumenda alias. Voluptatibus nihil iusto ipsam aspernatur vero explicabo aut eum debitis, dolorem aliquid!</p>
-                        </article>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="./assets/Vision.png" class="card-img-top" alt="vision">
+                        <div class="card-body">
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo iste voluptates enim labore assumenda! Excepturi, explicabo? Omnis suscipit, harum cupiditate, aspernatur eius laboriosam architecto consequatur laborum deserunt unde aperiam iusto?</p>
+                        </div>
+                      </div>
                     </div>
-                    <div>
-                        <article class="card">
-                            <img src="./assets/Valores.png" alt="Valores" width="200" height="220">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum mollitia obcaecati, blanditiis esse eveniet quis facere voluptatum tempore laudantium consequuntur aspernatur ea quia ipsum placeat eius! Error minima ad facilis.</p>
-                        </article>
+                    <div class="col">
+                      <div class="card h-100">
+                        <img src="./assets/Valores.png" class="card-img-top" alt="valores">
+                        <div class="card-body">
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At incidunt neque dolorum expedita, ad atque maxime! Itaque eaque aspernatur culpa nobis blanditiis, repudiandae sequi ullam reprehenderit, debitis, nemo pariatur vel?</p>
+                        </div>
+                      </div>
                     </div>
-                </div>
             </div>
         </section>
         <!--Latest co-worker companies-->

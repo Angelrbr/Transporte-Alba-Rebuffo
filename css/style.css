@@ -35,15 +35,6 @@ main.container__locale {
 
 /* 1. Global header  */
 
-.header {
-    background-color: #131E29;
-    color: #7BA4DB;
-    padding: 30px 20px;
-}
-
-.header a {
-    color: #7BA4DB;
-}
 
 .header__container {
     display: flex;
@@ -131,20 +122,7 @@ main.container__locale {
     margin-bottom: 2rem;
 }
 
-.cards {
-    display: grid;
-    gap: 3rem;
-    justify-content: space-evenly;
-    grid-template-columns: repeat(3, 1fr);
-}
-
-.card {
-    box-shadow: 10px 10px 30px #d7d7d7,
-     -10px -10px 15px #fff;
-    border-radius: 1rem;
-    padding: 1.5rem;
-    text-align: center;
-    background-color: #FFF;
+.card{
     transition: 0.5s;
 }
 
@@ -158,12 +136,12 @@ main.container__locale {
     font-style: italic;
 }
 
+/* 5. Index / Clients */
+
 .main__clients {
     margin-bottom: 3rem;
     text-align: center;
 }
-
-/* 5. Index / Clients */
 
 .clients__logos {
     margin-top: 1.5rem;
@@ -199,8 +177,8 @@ main.container__locale {
 /* 7. Global Footer */
 
 .footer {
-    background-color: #7BA4DB;
-    color: #131E29;
+    background-color: #212529;
+    color: #ffffff;
     padding: 30px 20px;
 }
 
@@ -224,7 +202,7 @@ main.container__locale {
 }
 
 .footer__navbar a {
-    color: #131E29;
+    color: #ffffff;
 }
 
 .navbar__legals {
@@ -377,23 +355,5 @@ main.container__locale {
 
     .footer__navbar {
         flex-direction: column;
-    }
-}
-
-/* Tablet */
-@media (min-width: 768px) {
-    .content__navbar {
-        display: flex;
-        font-size: 15pt;
-        gap: 8px;
-    }
-}
-
-/* Desktop */
-@media (min-width: 1024px) {
-    .content__navbar {
-        display: flex;
-        font-size: 15pt;
-        gap: 20px;
     }
 }

@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nosotros</title>
     <link rel="shortcut icon" href="../assets/clipart2200488.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,24 +16,24 @@
 <body>
     <header class="header">
         <!--Header with NavBar-->
-        <div class="header__container container__locale">
-            <div class="header__content">
-                <img src="../assets/clipart2200488.png" alt="Logo Trebsa" width="60" height="60" class="content__logo">
-                <h1 class="content__title">
-                    <a href="../index.html">Transporte Rebuffo S.A.</a>
-                </h1>
-                <h1 class="content__title--mobileonly">
-                    <a href="../index.html">TREBSA</a>
-                </h1>
-            </div>
-            <div>
-                <ul class="content__navbar">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./about.html">Nosotros</a></li>
-                <li><a href="./contact.html">Contacto</a></li>
-                <li><a href="./quote.html">Cotizar</a></li>
-                </ul>
-            </div>
+        <div>
+            <nav class="navbar navbar-expand-lg bg-dark">
+                <div class="container-fluid">
+                  <img src="../assets/clipart2200488.png" alt="" width="60" height="60" class="d-inline-block align-text-top">
+                  <a class="navbar-brand link-light fs-2" href="../index.html">TREBSA</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-link active link-light fs-5" aria-current="page" href="../index.html">Inicio</a>
+                      <a class="nav-link link-light fs-5" href="./about.html">Nosotros</a>
+                      <a class="nav-link link-light fs-5" href="./contact.html">Contacto</a>
+                      <a class="nav-link link-light fs-5" href="./quote.html">Cotizar</a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
         </div>
     </header>
     <!--Page body-->
