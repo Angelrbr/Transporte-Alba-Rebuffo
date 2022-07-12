@@ -6,3 +6,6 @@ This Site and its subpages, were created to be used as a reference to my fictiti
 
 ## Version 1
 The page only contains HTML and CSS files. Next versions will include animations and the integration of Bootstrap for a better visual experience.
+
+## Version 2
+The page now contains styles made with Bootstrap.
