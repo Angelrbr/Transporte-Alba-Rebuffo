@@ -9,3 +9,7 @@ The page only contains HTML and CSS files. Next versions will include animations
 
 ## Version 2
 The page now contains styles made with Bootstrap.
+
+## Version 3
+Sass added to the project (just a bit).
+Added Meta Description for better SEO.
