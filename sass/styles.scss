@@ -1,0 +1,37 @@
+@import './variables';
+
+.header__container {
+    text-align: $contentCenter;
+}
+
+.logo {
+    background-color: $colorWhite;
+}
+
+.main__vanguard {
+    text-align: $contentCenter;
+}
+
+.footer {
+    color: $colorWhite;
+}
+
+.footer__navbar a {
+    color: $colorWhite;
+}
+
+.navbar__legals {
+    justify-content: $contentCenter;
+}
+
+.footer__copyright {
+    text-align: $contentCenter;
+}
+
+.main__content {
+    text-align: $contentCenter;
+}
+
+.content__form__footer {
+    text-align: $contentCenter;
+}
