@@ -1,0 +1,22 @@
+{
+  "name": "transporte-alba_rebuffo",
+  "version": "1.0.0",
+  "description": "This Site and its subpages, were created to be used as a reference to my fictitious Cargo Deliver company based in the game Euro Truck Simulator 2.",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-sass --include-path sass sass/styles.scss sass/styles.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Angelrbr/Transporte-Alba-Rebuffo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Angelrbr/Transporte-Alba-Rebuffo/issues"
+  },
+  "homepage": "https://github.com/Angelrbr/Transporte-Alba-Rebuffo#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
