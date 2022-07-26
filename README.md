@@ -13,3 +13,6 @@ The page now contains styles made with Bootstrap.
 ## Version 3
 Sass added to the project (just a bit).
 Added Meta Description for better SEO.
+
+## Version 3.1
+Some images were compressed to lower the site's overall size, improving performace.
